@@ -11,21 +11,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <title>robotics</title>
 <style>
-header{
-    /* background: url(stars.jpg); */
-    /* background-size: cover; */
-    /* background-position: center; */
-    /* min-height: 1000px; */
-}
+
 .section{
     padding-top: 4vw;
     padding-bottom: 4vw;
 }
-@media screen and (max-width:670px){
+/* @media screen and (max-width:670px){
     header{
         min-height: 500px;
     }
-}
+} */
 .card .card-image img {
     display: block;
     border-radius: 2px 2px 0 0;
@@ -53,8 +48,8 @@ header{
             <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="#photos">about us</a></li>
-            <li><a href="#services">instruments</a></li>
+            <li><a href="#photos">photos</a></li>
+            <li><a href="#services">services</a></li>
             <li><a href="#contact">contact us</a></li>
             <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4 " data-tooltip="instagram">
                 <i class="fab fa-instagram"></i>
@@ -67,14 +62,15 @@ header{
             </a></li>
         </ul>
         <ul class="sidenav grey lighten-2" id="mobile-menu">
-            <li><a href="#">about us</a></li>
-            <li><a href="#">instruments</a></li>
-            <li><a href="#">contact us</a></li>
+            <li><a href="#photos">photos</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#contact">contact us</a></li>
         </ul>
 
     </div>
     </nav>
   </header>
+    
     
   <!-- photo / grid -->
   <section class="container section scrollspy" id="photos">
@@ -121,16 +117,24 @@ header{
                             <i class="material-icons">favorite</i>
                         </a>  
                     </div>
+                    
                     <div class="card-content">
                         <span class="card-title">ac motor</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque iste nulla a est ducimus itaque error tenetur aliquid voluptas quod magni quas et, cupiditate ab. Amet laboriosam repudiandae dolore voluptatibus aut fugiat.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, veniam..</p>
                     </div>
                     <div class="card-action">
-                        <a href="#">more details</a>
-                        <a href="#">add to cart</a>
+                        <a class="btn-small indigo modal-trigger" href="#terms">details</a>
+                        <a class="btn-small indigo"href="#">add to cart</a>
+                    </div>
+                    <div class="modal" id="terms">
+                        <div class="modal-content">
+                            <h4>ac motor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close btn indigo">close</a>
+                        </div>
                     </div>
                 </div>
-
             </div>
         
 
@@ -144,11 +148,19 @@ header{
                         </div>
                         <div class="card-content">
                             <span class="card-title">12v battery</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque iste nulla a est ducimus itaque error tenetur aliquid voluptas quod magni quas et, cupiditate ab. Amet laboriosam repudiandae dolore voluptatibus aut fugiat.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, impedit?.</p>
                         </div>
                         <div class="card-action">
-                            <a href="#">more details</a>
-                            <a href="#">add to cart</a>
+                            <a class="btn-small indigo modal-trigger" href="#ob2">more details</a>
+                            <a class="btn-small indigo" href="#">add to cart</a>
+                        </div>
+                        <div class="modal" id="ob2">
+                            <div class="modal-content">
+                                <h4>12v battery</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                            <div class="modal-footer">
+                                <a href="#" class="modal-close btn indigo">close</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,11 +174,19 @@ header{
                             </div>
                             <div class="card-content">
                                 <span class="card-title">arduino mega</span>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque iste nulla a est ducimus itaque error tenetur aliquid voluptas quod magni quas et, cupiditate ab. Amet laboriosam repudiandae dolore voluptatibus aut fugiat.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, reprehenderit.</p>
                             </div>
                             <div class="card-action">
-                                <a href="#">more details</a>
-                                <a href="#">add to cart</a>
+                                <a class="btn-small indigo modal-trigger" href="#ob3">more details</a>
+                                <a class="btn-small indigo" href="#">add to cart</a>
+                            </div>
+                            <div class="modal" id="ob3">
+                                <div class="modal-content">
+                                    <h4>arduino mega</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                <div class="modal-footer">
+                                    <a href="#" class="modal-close btn indigo">close</a>
+                                </div>
                             </div>
                         </div>
         
@@ -174,7 +194,444 @@ header{
 
 
             </div>
+
+
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="responsive-img"  src="arduino nano.jpg" >
+                            <a href="#" class="halfway-fab btn-floating pink pulse">
+                                <i class="material-icons">favorite</i>
+                            </a>  
+                        </div>
+                        
+                        <div class="card-content">
+                            <span class="card-title">arduino nano</span>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, veniam..</p>
+                        </div>
+                        <div class="card-action">
+                            <a class="btn-small indigo modal-trigger" href="#ob4">details</a>
+                            <a class="btn-small indigo"href="#">add to cart</a>
+                        </div>
+                        <div class="modal" id="ob4">
+                            <div class="modal-content">
+                                <h4>arduino nano</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                            <div class="modal-footer">
+                                <a href="#" class="modal-close btn indigo">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+    
+                <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="arduino pi.jpg" alt="">
+                                <a href="#" class="halfway-fab btn-floating pink pulse">
+                                    <i class="material-icons">favorite</i>
+                                </a>  
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">arduino pi</span>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, impedit?.</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="btn-small indigo modal-trigger" href="#ob5">more details</a>
+                                <a class="btn-small indigo" href="#">add to cart</a>
+                            </div>
+                            <div class="modal" id="ob5">
+                                <div class="modal-content">
+                                    <h4>arduino pi</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                <div class="modal-footer">
+                                    <a href="#" class="modal-close btn indigo">close</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img class="responsive-img"  src="arduino uno.jpg" >
+                                    <a href="#" class="halfway-fab btn-floating pink pulse">
+                                        <i class="material-icons">favorite</i>
+                                    </a>  
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">arduino uno</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, reprehenderit.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a class="btn-small indigo modal-trigger" href="#ob6">more details</a>
+                                    <a class="btn-small indigo" href="#">add to cart</a>
+                                </div>
+                                <div class="modal" id="ob6">
+                                    <div class="modal-content">
+                                        <h4>arduino uno</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                    <div class="modal-footer">
+                                        <a href="#" class="modal-close btn indigo">close</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+    
+    
         </div>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="responsive-img"  src="bo motors.jpg" >
+                        <a href="#" class="halfway-fab btn-floating pink pulse">
+                            <i class="material-icons">favorite</i>
+                        </a>  
+                    </div>
+                    
+                    <div class="card-content">
+                        <span class="card-title">bo motors</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, veniam..</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn-small indigo modal-trigger" href="#ob7">details</a>
+                        <a class="btn-small indigo"href="#">add to cart</a>
+                    </div>
+                    <div class="modal" id="ob7">
+                        <div class="modal-content">
+                            <h4>bo motors</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close btn indigo">close</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="cables.jpg" alt="">
+                            <a href="#" class="halfway-fab btn-floating pink pulse">
+                                <i class="material-icons">favorite</i>
+                            </a>  
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">cables</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, impedit?.</p>
+                        </div>
+                        <div class="card-action">
+                            <a class="btn-small indigo modal-trigger" href="#ob8">more details</a>
+                            <a class="btn-small indigo" href="#">add to cart</a>
+                        </div>
+                        <div class="modal" id="ob8">
+                            <div class="modal-content">
+                                <h4>cables</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                            <div class="modal-footer">
+                                <a href="#" class="modal-close btn indigo">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="responsive-img"  src="chasis.jpg" >
+                                <a href="#" class="halfway-fab btn-floating pink pulse">
+                                    <i class="material-icons">favorite</i>
+                                </a>  
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">chasis</span>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, reprehenderit.</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="btn-small indigo modal-trigger" href="#ob9">more details</a>
+                                <a class="btn-small indigo" href="#">add to cart</a>
+                            </div>
+                            <div class="modal" id="ob9">
+                                <div class="modal-content">
+                                    <h4>chasis</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                <div class="modal-footer">
+                                    <a href="#" class="modal-close btn indigo">close</a>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+
+
+            </div>
+        
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="responsive-img"  src="dc motor.jpg" >
+                            <a href="#" class="halfway-fab btn-floating pink pulse">
+                                <i class="material-icons">favorite</i>
+                            </a>  
+                        </div>
+                        
+                        <div class="card-content">
+                            <span class="card-title">dc motor</span>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, veniam..</p>
+                        </div>
+                        <div class="card-action">
+                            <a class="btn-small indigo modal-trigger" href="#ob10">details</a>
+                            <a class="btn-small indigo"href="#">add to cart</a>
+                        </div>
+                        <div class="modal" id="ob10">
+                            <div class="modal-content">
+                                <h4>dc motor</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                            <div class="modal-footer">
+                                <a href="#" class="modal-close btn indigo">close</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+    
+                <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="display.jpg" alt="">
+                                <a href="#" class="halfway-fab btn-floating pink pulse">
+                                    <i class="material-icons">favorite</i>
+                                </a>  
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">display</span>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, impedit?.</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="btn-small indigo modal-trigger" href="#ob11">more details</a>
+                                <a class="btn-small indigo" href="#">add to cart</a>
+                            </div>
+                            <div class="modal" id="ob11">
+                                <div class="modal-content">
+                                    <h4>display</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                <div class="modal-footer">
+                                    <a href="#" class="modal-close btn indigo">close</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img class="responsive-img"  src="electromechanical.jpg" >
+                                    <a href="#" class="halfway-fab btn-floating pink pulse">
+                                        <i class="material-icons">favorite</i>
+                                    </a>  
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">electromechanical</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, reprehenderit.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a class="btn-small indigo modal-trigger" href="#ob12">more details</a>
+                                    <a class="btn-small indigo" href="#">add to cart</a>
+                                </div>
+                                <div class="modal" id="ob12">
+                                    <div class="modal-content">
+                                        <h4>electromechanical</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                    <div class="modal-footer">
+                                        <a href="#" class="modal-close btn indigo">close</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+    
+    
+                </div>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="responsive-img"  src="gear motor.jpg" >
+                                <a href="#" class="halfway-fab btn-floating pink pulse">
+                                    <i class="material-icons">favorite</i>
+                                </a>  
+                            </div>
+                            
+                            <div class="card-content">
+                                <span class="card-title">gear motor</span>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, veniam..</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="btn-small indigo modal-trigger" href="#ob13">details</a>
+                                <a class="btn-small indigo"href="#">add to cart</a>
+                            </div>
+                            <div class="modal" id="ob13">
+                                <div class="modal-content">
+                                    <h4>gear motor</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                <div class="modal-footer">
+                                    <a href="#" class="modal-close btn indigo">close</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+        
+                    <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="gear.jpg" alt="">
+                                    <a href="#" class="halfway-fab btn-floating pink pulse">
+                                        <i class="material-icons">favorite</i>
+                                    </a>  
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">gear</span>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, impedit?.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a class="btn-small indigo modal-trigger" href="#ob14">more details</a>
+                                    <a class="btn-small indigo" href="#">add to cart</a>
+                                </div>
+                                <div class="modal" id="ob14">
+                                    <div class="modal-content">
+                                        <h4>gear</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                    <div class="modal-footer">
+                                        <a href="#" class="modal-close btn indigo">close</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img class="responsive-img"  src="pulley.jpg" >
+                                        <a href="#" class="halfway-fab btn-floating pink pulse">
+                                            <i class="material-icons">favorite</i>
+                                        </a>  
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">pulley</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, reprehenderit.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a class="btn-small indigo modal-trigger" href="#ob15">more details</a>
+                                        <a class="btn-small indigo" href="#">add to cart</a>
+                                    </div>
+                                    <div class="modal" id="ob15">
+                                        <div class="modal-content">
+                                            <h4>pulley</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="modal-close btn indigo">close</a>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                            </div>
+        
+        
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img class="responsive-img"  src="robotics mechanical.jpg" >
+                                    <a href="#" class="halfway-fab btn-floating pink pulse">
+                                        <i class="material-icons">favorite</i>
+                                    </a>  
+                                </div>
+                                
+                                <div class="card-content">
+                                    <span class="card-title">robotics mechanical</span>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, veniam..</p>
+                                </div>
+                                <div class="card-action">
+                                    <a class="btn-small indigo modal-trigger" href="#ob16">details</a>
+                                    <a class="btn-small indigo"href="#">add to cart</a>
+                                </div>
+                                <div class="modal" id="ob16">
+                                    <div class="modal-content">
+                                        <h4>robotics mechanical</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                    <div class="modal-footer">
+                                        <a href="#" class="modal-close btn indigo">close</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+            
+                        <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="square gearbox motor.jpg" alt="">
+                                        <a href="#" class="halfway-fab btn-floating pink pulse">
+                                            <i class="material-icons">favorite</i>
+                                        </a>  
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">square gearbox motor</span>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, impedit?.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a class="btn-small indigo modal-trigger" href="#ob17">more details</a>
+                                        <a class="btn-small indigo" href="#">add to cart</a>
+                                    </div>
+                                    <div class="modal" id="ob17">
+                                        <div class="modal-content">
+                                            <h4>square gearbox motor</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="modal-close btn indigo">close</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img class="responsive-img"  src="wheel.jpg" >
+                                            <a href="#" class="halfway-fab btn-floating pink pulse">
+                                                <i class="material-icons">favorite</i>
+                                            </a>  
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="card-title">wheel</span>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, reprehenderit.</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a class="btn-small indigo modal-trigger" href="#ob18">more details</a>
+                                            <a class="btn-small indigo" href="#">add to cart</a>
+                                        </div>
+                                        <div class="modal" id="ob18">
+                                            <div class="modal-content">
+                                                <h4>wheel</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ea voluptas autem aspernatur provident necessitatibus fugiat eligendi tenetur sunt voluptatem, suscipit ullam excepturi iste culpa earum optio perferendis quod ex! Ratione, sit aperiam.</p></div>
+                                            <div class="modal-footer">
+                                                <a href="#" class="modal-close btn indigo">close</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                </div>
+            
+            
+                        </div>
+
+
+
+
+        </div1>
        
 
 
@@ -265,6 +722,7 @@ header{
         });
         $('.tooltipped').tooltip();
         $('.scrollspy').scrollSpy();
+        $('.modal').modal();
     });
     </script>
     
