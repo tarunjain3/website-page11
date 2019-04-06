@@ -1,0 +1,254 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COMPONENT ISSUE FORM</title>
+    <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <style>
+  .hi {
+      display:block;
+      border-style:groove;
+      /*margin:10px 10px; */
+      box-shadow:grey 5px 5px;
+  }
+  .fi {
+      display:block;
+      border-style:groove;
+      /*margin:10px 10px; */
+      box-shadow:grey 5px 5px;
+      position: absolute;
+      top:525px;
+      left:890px;
+      width:500px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+      
+  }
+  .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+/* label color */
+.input-field label {
+     color: rgb(28, 78, 214);
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid rgb(28, 78, 214);
+}
+[type="checkbox"]:checked+span:not(.lever):before {
+    
+    border-top: 2px solid rgba(0, 0, 0, 0);
+    border-left: 2px solid rgba(0, 0, 0, 0);
+    border-right: 2px solid rgb(28, 78, 214);
+    border-bottom: 2px solid rgb(28, 78, 214);
+    
+}
+</style>
+</head>
+<body>
+  <header>
+    <nav class="nav-wrapper indigo">
+    <div class="container">
+        <a href="#" class="brand-logo">COMPONENTS ISSUE FORM</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="project2dummy.html">about us</a></li>
+            <li><a href="instruments.html">instruments</a></li>
+            <li><a href="forminstrumentsissue.html">contact us</a></li>
+            <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4 " data-tooltip="instagram">
+                <i class="fab fa-instagram"></i>
+            </a></li>
+            <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4 " data-tooltip="facebook">
+                    <i class="fab fa-facebook"></i>
+            </a></li>
+            <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4 " data-tooltip="twitter">
+                    <i class="fab fa-twitter"></i>
+            </a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a href="project2dummy.html">about us</a></li>
+            <li><a href="instruments.html">instruments</a></li>
+            <li><a href="forminstrumentsissue.html">contact us</a></li>
+        </ul>
+
+    </div>
+    </nav>
+  </header>
+
+            <div class="row">
+                <form  action="#" class=" hi col s12 m4 push-m1">
+                    <h4 center>Personel Information</h4>
+                    
+                        <!-- <legend>personal information </legend> -->
+                    
+
+                        <div class="input-field">
+                            <input id="name" type="text" class="validate">
+                            <label for="name"> Name</label>
+                          </div>
+                          <div class="input-field">
+                            <input id="roll_no" type="text" class="validate">
+                            <label for="roll_no"> Roll No.</label>
+                          </div>
+
+                        <p><h6 class="indigo-text text-lighten-1">Year</h6></p>
+                        <p>
+                            <label>
+                              <input class="with-gap" name="group1" type="radio" checked />
+                              <span class="black-text">1</span>
+                            </label>
+                          
+                          
+                            <label>
+                              <input class="with-gap" name="group1" type="radio" />
+                              <span class="black-text">2</span>
+                            </label>
+                          
+                          
+                            <label>
+                              <input class="with-gap" name="group1" type="radio"  />
+                              <span class="black-text">3</span>
+                            </label>
+                          
+                          
+                            <label>
+                              <input class="with-gap" name="group1" type="radio"  />
+                              <span class="black-text">4</span>
+                            </label>
+                          </p>
+
+                          
+                          <p><h6 class="indigo-text text-lighten-1">Have you returned the previous components?</h6></p>
+                          <p>
+                            <label>
+                              <input class="with-gap" name="group1" type="radio" checked />
+                              <span class="black-text">yes</span>
+                            </label>
+                          
+                          
+                            <label>
+                              <input class="with-gap" name="group1" type="radio" />
+                              <span class="black-text">no</span>
+                            </label>
+                          
+                          
+                            <label>
+                              <input class="with-gap" name="group1" type="radio"  />
+                              <span class="black-text">I m issuing for first time</span>
+                            </label>
+                        </p>
+                            <br/>
+                          
+                          <div class="input-field">
+                            <select>
+                              <option value="" disabled selected>Choose branch</option>
+                              <option value="1">ECE</option>
+                              <option value="2">EEE</option>
+                              <option value="3">CSE</option>
+                              <option value="4">IT</option>
+                              <option value="5">MECH</option>
+                              <option value="6">BIO-TECH</option>
+                            </select>
+                            <label class=>Select Branch</label>
+                            <p>
+
+                            </p>
+                          </div>
+                        <div class="input-field">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Components Required</label>
+                    </div>
+                    <div class="row">
+                
+                    <div class=" col input-field">
+                            <input id="mobile_no" type="text" class="validate">
+                            <label for="mobile_no">Mobile No.</label>
+                        </div>     
+                        <div class=" col input-field">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label></div>
+                        </div>
+                           
+                           <div class="input-field">
+                                <textarea id="textarea2" class="materialize-textarea"></textarea>
+                                <label for="textarea2">Purpose of issuing the components</label>
+                            </div>
+                            
+                    
+                            
+                        </form>
+                  <form class="hi col s12 m4 right pull-m1">
+                      <h3>Issuer's Information</h3>
+                    <div class="input-field ">
+                        <input id="issuersname" type="text" class="validate">
+                        <label for="issuersname">Issuer's Name</label>
+                      </div>
+                      <div class="input-field">
+                            <input type="text" id="date" class="datepicker">
+                            <label for="date">Issue date</label>
+                        </div>
+                      <div class="input-field">
+                        <input id="password" type="password" class="validate">
+                        <label for="password"> Password</label>
+                      </div>
+                      
+                  </form>
+                </div>
+                
+                  <form class="fi">
+                      <h3 center>Feedback</h3>
+                  
+                      <div class="input-field">
+                            <textarea id="textarea3" class="materialize-textarea"></textarea>
+                            <label for="textarea3">Any questions/suggestions</label>
+                        </div>
+                        </form>
+                        
+                
+                        </div>
+                    
+
+   <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  
+    <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+        $('.tooltipped').tooltip();
+        $('input#input_text, textarea#textarea2').characterCounter();
+        $('select').formSelect();  
+        $('.datepicker').datepicker();      
+    })     
+    </script>
+    
+</body>
+</html>
